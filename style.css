@@ -1,7 +1,26 @@
+<<<<<<< HEAD
+/* ── Reset ─────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Page ──────────────────────────────────────────────── */
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #14141e;   /* dark background matches sketch's background(20,20,30) */
+  overflow: hidden;
+}
+
+/* ── Canvas ────────────────────────────────────────────── */
+=======
 html, body {
   margin: 0;
   padding: 0;
 }
+>>>>>>> 236d9520db9a97b46cb73e95ed49afd3954c0274
 canvas {
   display: block;
 }
